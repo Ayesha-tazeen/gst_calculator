@@ -1,18 +1,74 @@
-# React + Vite
+# Digital GST Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive GST Calculator built using React and Vite. It allows users to calculate GST using both Inclusive and Exclusive modes instantly.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://gst-calculator-c51k3yak9-ayeshadev.vercel.app
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Calculate GST in Exclusive Mode
+- Calculate GST in Inclusive Mode
+- Real-time GST calculation
+- Input validation
+- GST rate limited to 1–100%
+- Amount must be greater than 0
+- Refresh button to reset all fields
+- Responsive and user-friendly interface
 
-Note: This will impact Vite dev & build performances.
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project folder
+
+```bash
+cd gst-calculator
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```text
+gst-calculator/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Author
+
+**Ayesha Tazeen**
+
+Built as an internship assignment for Digital Heroes.
